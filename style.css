@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(170, 211, 204);
+}
+.maincalc{
+    height: 420px;
+    width : 300px;
+    background-color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    border : 10px solid black;
+}
+
+.screen{
+    background-color: rgb(201, 178, 178);
+    border-radius: 20px;
+    margin : auto;
+    display: block;
+    width: 90%;
+    position: relative;
+    top : 10px;
+    height: 60px;
+
+}
+
+.buttons{
+    position: relative;
+    top : 25px;
+    left : 15px;
+}
+
+button{
+    height: 60px;
+    width: 65px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    background-color: thistle;
+}
+
+input{
+    font-size: 20px;
+}
+
+marquee{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+button:hover{
+    background-color: wheat;
+}
